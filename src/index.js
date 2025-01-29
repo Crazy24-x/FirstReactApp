@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 const element = (
     <div>
-        <h1>My To-do List</h1>
+        <h1>My To-Do List</h1>
         <input placeholder="search" />
         <ul>
             <li>Install React</li>
