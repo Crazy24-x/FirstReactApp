@@ -13,7 +13,7 @@ const TodoList = () => {
 };
 
 const AppHeader = () =>{
-    return <h1>My Todo List</h1>;
+    return <h1>My To-do List</h1>;
 };
 const SearchPanel = () => {
     return <input placeholder="search" />;
