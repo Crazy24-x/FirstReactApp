@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import AppHeader from "./components/app-header";
 import SearchPanel from "./components/search-panel";
 import TodoList from "./components/todo-list";
+import ItemStatusFilter from "./components/item-status-filter";
 
 const App = () => {
 
@@ -19,11 +21,10 @@ const App = () => {
             <AppHeader />
             <SearchPanel />
             <TodoList todos =  {todoData} />
+            <ItemStatusFilter />
         </div>
     );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
-console.log('Hello Aldiyar');
